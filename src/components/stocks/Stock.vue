@@ -46,6 +46,7 @@
 					quantity: this.quantity
 				};
 				this.quantity = 0;
+				this.$store.dispatch('buyStock', order);
 			}
 		}
 	}
